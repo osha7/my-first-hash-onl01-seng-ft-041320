@@ -29,14 +29,12 @@ def retrieval
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
 end
 
-require "pry"
 
 def adding
-  binding.pry
   shipping_manifest = {
                   "whale bone corsets" => 5, 
                   "porcelain vases" => 2,
-                  "oil paintings" => 3
+                  "oil paintings" => 3,
                   "muskets" => 2,
                   "gun powder" => 4
   }
